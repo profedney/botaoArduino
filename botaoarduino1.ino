@@ -6,8 +6,8 @@ int estadoBotao=0;
 
 void setup()
 {
-  pinMode(pinoBotao, OUTPUT);
-  pinMode(pinoLed, INPUT);
+  pinMode(pinoBotao, INPUT);
+  pinMode(pinoLed, OUTPUT);
 }
 
 void loop()
